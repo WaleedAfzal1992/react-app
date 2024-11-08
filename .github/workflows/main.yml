@@ -71,7 +71,6 @@ jobs:
                 "portMappings": [
                   {
                     "containerPort": 3000,
-                    "hostPort": 0,
                     "protocol": "tcp"
                   }
                 ],
