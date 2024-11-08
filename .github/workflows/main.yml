@@ -65,13 +65,13 @@ jobs:
               {
                 "name": "my-react-container",
                 "image": "061051224547.dkr.ecr.us-east-1.amazonaws.com/my-react-app:latest", 
-                "memory": 3 GB,
-                "cpu": 1 vCPU,
+                "memory": 3,
+                "cpu": 1,
                 "essential": true,
                 "portMappings": [
                   {
                     "containerPort": 3000,
-                    "hostPort": 3000,
+                    "hostPort": 0,
                     "protocol": "tcp"
                   }
                 ],
